@@ -1,0 +1,35 @@
+{
+  "name": "ai-agent-cli",
+  "version": "2.0.0",
+  "description": "Multi-LLM AI Agent CLI - 支持 Claude/ChatGPT/Kimi/DeepSeek/ChatGLM/Doubao 等任意大模型的 Agent 框架",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ai-agent": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "init-config": "tsx src/index.ts --init-config"
+  },
+  "keywords": [
+    "ai", "agent", "cli", "llm", "claude", "chatgpt", "kimi", "deepseek",
+    "chatglm", "doubao", "mcp", "multi-agent", "tool-use"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.3.0",
+    "zod": "^3.23.0",
+    "zod-to-json-schema": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
