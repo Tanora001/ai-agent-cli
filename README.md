@@ -39,7 +39,7 @@ All providers using the OpenAI-compatible chat completions format are supported 
 ### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-agent-cli.git
+git clone https://github.com/Tanora001/ai-agent-cli.git
 cd ai-agent-cli
 npm install
 ```
@@ -350,7 +350,7 @@ AI Agent CLI 是一个支持**任意大模型 API**的 AI Agent 命令行框架�
 #### 安装
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-agent-cli.git
+git clone https://github.com/Tanora001/ai-agent-cli.git
 cd ai-agent-cli
 npm install
 ```
